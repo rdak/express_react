@@ -1,5 +1,5 @@
 import React from 'react';
-import BlogItem from './Blog';
+import BlogItem from './BlogItem';
 
 class Blog extends React.Component{
     render(){
