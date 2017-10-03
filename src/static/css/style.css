@@ -66,9 +66,10 @@ table {
   .header__menu-point {
     font-size: 14px;
     line-height: 20px;
-    
+    font-weight: bold;
     padding: 5px 10px; }
-    .header__menu-point--active a {
+    a.header__menu-point--active {
+      text-decoration: underline;
       color: green; }
 
 .footer {
@@ -89,12 +90,15 @@ table {
     float: right;
     margin: 0;
     list-style: none; }
+    .footer__menu li{
+    float: left;}
   .footer__menu-point {
     font-size: 14px;
     line-height: 20px;
-    float: left;
+    font-weight: bold;
     padding: 5px 10px; }
-    .footer__menu-point--active a {
+    a.footer__menu-point--active {
+      text-decoration: underline;
       color: green; }
 
 .fetchData {
