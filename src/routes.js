@@ -8,6 +8,7 @@ import NotFoundPage from './components/NotFoundPage';
 const routes = (
   <Route component={App}>
     <IndexRoute component={Homepage}/>
+    <Route path="" component={Homepage}/>
     <Route path="blog" component={Blog}/>
     <Route path="*" component={NotFoundPage}/>
   </Route>

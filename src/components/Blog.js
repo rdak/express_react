@@ -1,4 +1,5 @@
 import React from 'react';
+import BlogItem from './Blog';
 
 class Blog extends React.Component{
     render(){
@@ -10,6 +11,7 @@ class Blog extends React.Component{
                 </div>
                 <p className="App-intro">
                     There are a lot of articles below.
+                    <BlogItem />
                 </p>
             </div>
         )
