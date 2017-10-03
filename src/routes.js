@@ -6,7 +6,7 @@ import Blog from './components/Blog';
 import NotFoundPage from './components/NotFoundPage';
 
 const routes = (
-  <Route component={App}>
+  <Route path="/" component={App}>
     <IndexRoute component={Homepage}/>
     <Route path="blog" component={Blog}/>
     <Route path="*" component={NotFoundPage}/>
