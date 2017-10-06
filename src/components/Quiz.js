@@ -199,7 +199,7 @@ class Quiz extends React.Component{
         super(props);
 
         this.state = {
-            amount : 3, // if player would like to increse/decrease the difficult in the some potential input
+            amount : 10, // if player would like to increse/decrease the difficult in the some potential input
             start : false,
             buttonText: "Start Quiz"
         };
