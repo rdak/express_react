@@ -9,7 +9,6 @@ class App extends React.Component {
                 <div className="content">
                     <Header />
                     <div className="app-content">{this.props.children}</div>
-                    <Footer />
                 </div>
             </div>
         );

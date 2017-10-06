@@ -161,7 +161,8 @@ table {
 
 .App-header {
   background-color: #222;
-  height: 150px;
+      height: 50px;
+    font-size: 32px;
   padding: 20px;
   color: white; }
 
@@ -188,5 +189,78 @@ table {
 
 .footer {
   flex: 0 0 auto; }
+
+.question{
+  padding: 10px 0;
+}
+
+.inputs{
+  text-align: center;
+  padding: 25px;
+}
+
+.startQuiz {
+    padding: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    background: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.startQuiz:hover {
+  background: #E9F4CD;
+}
+
+.startQuiz:active {
+  box-shadow: inset 1px 1px 6px -2px;
+}
+
+.quiz__data h1{
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.question p{
+  padding: 5px 0;
+}
+
+.question--right{
+  color: green;
+}
+
+.question--wrong{
+  color: red;
+}
+
+.quiz-body{
+  text-align: left;
+}
+
+.quiz-body label{
+  display: block;
+  padding: 5px 30px;
+}
+
+.results{
+  padding: 15px 0;
+}
+
+.results h1{
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.results p{
+  font-size: 18px;
+  line-height: 24px;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
 
 /*# sourceMappingURL=App.css.map */
